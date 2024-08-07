@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = lab01_conhecendo_o_ambiente_de_desenvolvimento
-build_property.ProjectDir = D:\dev\puc\atp\labs\lab01-conhecendo-o-ambiente-de-desenvolvimento\
+build_property.ProjectDir = /workspaces/pco-2024-2-atp-lab01-Gabriel6Leandro/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
