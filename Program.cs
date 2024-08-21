@@ -1,13 +1,17 @@
-﻿class Program
-{
-    static void Main(string[] args)
-    {
-        int idade = 20;
-        double altura = 1.80, peso = 62.5765746;
-        string nome = "Gabriel Leandro";
-
-        Console.WriteLine("Nome {0,-16}| Idade {1,8}", nome, idade);
-        Console.WriteLine("Altura {0,-14}| Peso  {1,8:F2}", altura, peso);
-      
-    }
+﻿class Program {
+  public static void Main (string[] args) {
+    
+    double a, b, c, delta, x1, x2;
+    Console.WriteLine ("Digite o valor de A: ");
+    a = double.Parse(Console.ReadLine());
+    Console.WriteLine ("Digite o valor de B: ");
+    b = double.Parse(Console.ReadLine());
+    Console.WriteLine ("Digite o valor de C: ");
+    c = double.Parse(Console.ReadLine());
+    delta = Math.Pow(b,2) - (4*a*c);
+    Console.WriteLine("O valor de delta é: " + delta);
+    x1= (-b + Math.Sqrt(delta))/(2*a);
+    x2= (-b - Math.Sqrt(delta))/(2*a);
+    Console.WriteLine($"O valor de x1 é: {x1} \nO valor de x2 é: {x2}");
+  }
 }
